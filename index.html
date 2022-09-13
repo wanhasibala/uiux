@@ -14,29 +14,50 @@
 
 <body>
     <div class="navbarImage">
-        <nav class="container-fluid">
-            <img src="assets/images/Logo text.png" alt="" id="logo">
-            <div class="con-link">
-                <a href="#" class="link">Cara Kerja</a>
-                <a href="#" class="link">Cara Bayar</a>
-                <a href="#" class="link">Hubungi Kami</a>
-                <a href="#" class="link">Tentang Kami</a>
-            </div>
-            <div class="button">
-                <button class="btn0">Log In</button>
-                <button class="btn1">Sign Up</button>
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container-fluid d-flex justify-content-between">
+                <div>
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/images/Logo text.png" alt="" id="logo">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav navbar-dark me-auto  mb-2 mb-lg-0 ">
+                        <li class="nav-item d-flex justify-content-end">
+                            <a class="nav-link d-flex " aria-current="page" href="#">Cara Kerja</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-end">
+                            <a class="nav-link " href="#">Cara Bayar</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-end">
+                            <a class="nav-link" href="#">Tentang Kami</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-end ">
+                            <a class="nav-link "> Hubungi Kami</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex justify-content-end" role="search">
+                        <button class="btn0" type="submit"> Log In</button>
+                        <button class="btn1" type="submit">Sign Up</button>
+                    </form>
+                </div>
             </div>
         </nav>
         <div id="carouselExampleControls" class="carousel slide mt-5" data-bs-ride="carousel">
-            <div class="carousel-inner " >
+            <div class="carousel-inner ">
                 <div class="carousel-item active">
-                    <img src="assets/images/foto1.jpg"class= "d-block w-50 " alt="...">
+                    <img src="assets/images/foto1.jpg" class="d-flex justify-content-center w-75 " alt="...">
+                </div>
+                <div class="carousel-item ">
+                    <img src="assets/images/foto1.jpg" class="d-block w-75" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/images/foto1.jpg" class="d-block w-50" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/images/foto1.jpg" class="d-block w-50 justify-content-center " alt="...">
+                    <img src="assets/images/foto1.jpg" class="d-block w-75" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -50,6 +71,9 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+    </div>
+    <div class="content">
+        <h2>Pinjaman dana untuk meningkatkan skills anda</h2>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
